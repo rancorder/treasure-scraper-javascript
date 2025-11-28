@@ -1,0 +1,24 @@
+{
+  "name": "treasure-scraper-js",
+  "version": "1.0.0",
+  "description": "トレジャーファクトリー 1位監視スクレイパー (JavaScript版)",
+  "main": "treasure-scraper.js",
+  "scripts": {
+    "start": "node treasure-scraper.js",
+    "test": "node -e \"require('./treasure-scraper').scrapeProducts(5).then(r => console.log('✅ Test OK:', r.length, 'products'))\""
+  },
+  "keywords": [
+    "scraper",
+    "playwright",
+    "chatwork"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "playwright": "^1.40.0",
+    "node-fetch": "^3.3.2"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
