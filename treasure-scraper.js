@@ -35,8 +35,8 @@ const CONFIG = {
   SITE_BASE_URL: 'https://ec.treasure-f.com',
   
   // ChatWork
-  CHATWORK_TOKEN: '987cf44efbf5529a09b1317a85058640',
-  CHATWORK_ROOM_ID: '414116324',
+  CHATWORK_TOKEN: '＊＊＊＊＊＊＊',
+  CHATWORK_ROOM_ID: '＊＊＊＊＊＊',
   
   // タイムアウト
   PAGE_LOAD_TIMEOUT: 90000,
@@ -669,5 +669,6 @@ if (require.main === module) {
     process.exit(1);
   });
 }
+
 
 module.exports = { scrapeProducts, checkAndNotify };
